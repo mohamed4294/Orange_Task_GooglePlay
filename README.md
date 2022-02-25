@@ -13,14 +13,24 @@
  # Content 
  - This project contain
     - TED scenario
-       -First test case
-          -User can open apps
-       -Second test case 
-          -User can select education from category
-       -Third test case 
-          -User can search for TED application
-       -Fourth test case 
-          -User can Select for TED application
+       - First test case
+          - User can open apps
+             - navigate "https://play.google.com/store"
+             - click on apps
+       - Second test case 
+          - User can select education from category
+             - click on category 
+             - select education
+       - Third test case 
+          - User can search for TED application
+             - write TED in search textbox
+             - click on search button
+       - Fourth test case 
+          - User can Select for TED application
+             -click on TED application
     - Facebook Scenario 
-       -First test case 
-          -User can search for facebook 
+       - First test case 
+          - User can search for facebook 
+             - navigate "https://play.google.com/store"
+             - write Facebook in search textbox
+             
