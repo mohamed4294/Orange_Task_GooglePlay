@@ -40,13 +40,13 @@ public class TedScenario extends TestBase{
 		selectobject = new SelectTed(driver);
 		Assert.assertEquals(selectobject.getURL() , "https://play.google.com/store/search?q=TED&c=apps" , "The user is in incorrect Page" );		
 	}
-	/*
+	
 	@Test(priority = 4)
 	public void user_can_select_TED_application() {
 		selectobject = new SelectTed(driver);
 		selectobject.chooseTed();
 		tedobject = new TEDAppPage(driver);
 		Assert.assertTrue(tedobject.tedPage() , " The user is in incorrect page");
-	}*/
+	}
 }
 
