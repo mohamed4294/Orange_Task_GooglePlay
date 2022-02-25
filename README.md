@@ -1,9 +1,11 @@
 # Orange_Task_GooglePlay
 # Prerequisites
 - Java JDK 
-- Selenium 
-- Maven
+- Maven (to run from command line)
 - TestNG
+# Libraries
+- Selenium 
+- WebDriver Manger
 # Usage 
  - download the source code and import it into your IDE
  - to run the complete suite of tests , run the TestNG.xml file 
